@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="ajitlenka30" fetch="https://github.com/LineageOS" />
+    <remote name="los" fetch="https://github.com/LineageOS" />
 
 # Hals
     <remove-project name="android_hardware_qcom_audio" />
