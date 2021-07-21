@@ -6,7 +6,7 @@
 
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/msm8996/audio" name="andro"lineage
+
     
     <remote name="pixel" fetch="https://github.com/PixelExperience" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" groups="pdk,qcom,qcom_display" remote="pixel" revision="eleven" />
