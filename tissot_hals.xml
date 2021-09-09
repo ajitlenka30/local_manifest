@@ -16,4 +16,4 @@
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-18.1-caf-msm8996" />
 
 </manifest>
-</ma
+
