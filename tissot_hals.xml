@@ -8,6 +8,7 @@
     <remove-project name="android_hardware_qcom_media" />
     <remove-project name="android_hardware_qcom_audio" />
     <remove-project name="android_hardware_qcom_bootctrl" />
+    <remove-project name="vendor_corvus" />
     
     <remote name="pixel" fetch="https://github.com/PixelExperience" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" groups="pdk,qcom,qcom_display" remote="pixel" revision="eleven" />
@@ -19,4 +20,7 @@
     <remote name="ajitlenka30" fetch="https://github.com/ajitlenka30" />
     <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,qcom_bootctrl" remote="ajitlenka30" revision="11" />
     
+    <remote name="ajitlenka30" fetch="https://github.com/ajitlenka30" />
+    <project path="vendor/corvus" name="vendor_corvus" groups="vendor.corvus" remote="ajitlenka30" revision="11" />
+
 </manifest>
