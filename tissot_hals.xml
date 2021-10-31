@@ -17,10 +17,10 @@
     <remote name="los" fetch="https://github.com/LineageOS" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-18.1-caf-msm8996" />
 
-    <remote name="ajitlenka30" fetch="https://github.com/ajitlenka30" />
-    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,qcom_bootctrl" remote="ajitlenka30" revision="11" />
-    
-</manifest>
+
+
+
+
 
 
 
