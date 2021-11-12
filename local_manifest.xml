@@ -8,4 +8,3 @@
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="ajitlenka30" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="ajitlenka30" revision="11" clone-depth="1" />
 </manifest>
-
