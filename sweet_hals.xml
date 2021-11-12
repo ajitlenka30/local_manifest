@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
 # Hals
 
     <remove-project name="vendor_corvus" />
-
-
     
     <remote name="ajitlenka30" fetch="https://github.com/ajitlenka30" />
     <project path="vendor/corvus" name="vendor_corvus" groups="vendor" remote="ajitlenka30" revision="11" />
-
 
 </manifest>
