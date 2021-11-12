@@ -4,12 +4,12 @@
 
 # Hals
 
-    <remove-project name="android_hardware_qcom_display" />
-    <remove-project name="android_hardware_qcom_media" />
+    <remove-project name="vendor_corvus" />
+
 
     
-    <remote name="pixel" fetch="https://github.com/PixelExperience" />
-    <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" groups="pdk,qcom,qcom_display" remote="pixel" revision="eleven" />
-    <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" groups="qcom" remote="pixel" revision="eleven" />
+    <remote name="ajitlenka30" fetch="https://github.com/ajitlenka30" />
+    <project path="vendor/corvus" name="vendor_corvus" groups="vendor" remote="ajitlenka30" revision="11" />
+
 
 </manifest>
