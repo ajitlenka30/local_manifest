@@ -9,4 +9,11 @@
         <project path="vendor/xiaomi/tissot" name="android_vendor_xiaomi_tissot" remote="ajitlenka30" revision="12" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="android_vendor_xiaomi_msm8953-common" remote="ajitlenka30" revision="12" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="ajitlenka30" revision="12" clone-depth="1" />
+
+ <!-- Wlan -->
+        <remote name="gma"
+                fetch="https://github.com/GhostMaster69-dev" />
+ 
+       <remove-project name="android_hardware_qcom_wlan" />
+       <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="gma" revision="android-12.0-caf-4.9-S" clone-depth="1" />
 </manifest>
