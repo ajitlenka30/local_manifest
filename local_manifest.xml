@@ -13,7 +13,7 @@
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="ajitlenka30" revision="12" clone-depth="1" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="ajitlenka30" revision="12" clone-depth="1" />
         
-        <remove-project name="android_hardware_qcom-caf_common" />
+        <remove-project name="a
         
-        <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="ArrowOS" revision="arrow-12.1" clone-depth="1" />
+
 </manifest>
