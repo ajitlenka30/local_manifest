@@ -3,14 +3,16 @@
 
         <remote name="ajitlenka30"
                 fetch="https://github.com/ajitlenka30" />
+
+        <remote name="mrfox2003"
+                fetch="https://gitlab.com/mrfox2003" />
         
-        <remove-project name="android_device_qcom_sepolicy_vndr-legacy-um" />
+        <remove-project name="android_frameworks_base" />
         
+        <project path="frameworks/base" name="android_frameworks_base" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="ajitlenka30" revision="13" clone-depth="1" />
-        <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/sweet" name="android_vendor_xiaomi_sweet" remote="ajitlenka30" revision="13" clone-depth="1" />
-        <project path="vendor/xiaomi/sm6150-common" name="android_vendor_xiaomi_sm6150-common" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="ajitlenka30" revision="13" clone-depth="1" />
-        <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="ajitlenka30" revision="13" clone-depth="1" />
-       
+        <project path="vendor/xiaomi/sweet-miuicamera" name="sweet-miuicamera" remote="mrfox2003" revision="T" clone-depth="1" />
+        
  </manifest>
