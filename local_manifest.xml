@@ -3,9 +3,15 @@
 
         <remote name="ajitlenka30"
                 fetch="https://github.com/ajitlenka30" />
+
+        <remote name="pixel"
+        fetch="https://github.com/PixelExperience" />
+        
+        <remove-project name="android_packages_resources_devicesettings" />
         
         <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="ajitlenka30" revision="new" clone-depth="1" />
         <project path="vendor/xiaomi/sweet" name="android_vendor_xiaomi_sweet" remote="ajitlenka30" revision="new" clone-depth="1" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="ajitlenka30" revision="new" clone-depth="1" />
+        <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" revision="thirteen" clone-depth="1" />
  </manifest>
