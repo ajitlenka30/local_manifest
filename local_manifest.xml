@@ -7,7 +7,7 @@
         <remote name="pixel"
         fetch="https://github.com/PixelExperience" />
         
-        <remove-project name="android_packages_resources_devicesettings" />
+        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
         
         <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="ajitlenka30" revision="new" clone-depth="1" />
         <project path="vendor/xiaomi/sweet" name="android_vendor_xiaomi_sweet" remote="ajitlenka30" revision="new" clone-depth="1" />
