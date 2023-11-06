@@ -13,6 +13,7 @@
         <remove-project name="platform/external/libxml2" />
         <remove-project name="platform/tools/apksig" />
         <remove-project name="RisingTechOSS/android_build" />
+        <remove-project name="RisingTechOSS/android_packages_apps_Settings" />
 
         <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/sweet" name="android_vendor_xiaomi_sweet" remote="ajitlenka30" revision="13" clone-depth="1" />
@@ -22,5 +23,6 @@
         <project path="external/libxml2" name="android_external_libxml2" remote="los" revision="lineage-20.0" clone-depth="1" />
         <project path="tools/apksig" name="android_tools_apksig" remote="los" revision="lineage-20.0" clone-depth="1" />
         <project path="build/make" name="android_build" remote="ajitlenka30" revision="13" clone-depth="1" />
+        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ajitlenka30" revision="13" clone-depth="1" />
 
  </manifest>
