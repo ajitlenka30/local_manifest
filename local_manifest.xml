@@ -7,9 +7,20 @@
         <remote name="mrfox2003"
                 fetch="https://gitlab.com/mrfox2003" />
 
+        <remote name="los"
+                fetch="https://github.com/LineageOS" />
+
+        <remove-project name="platform/external/libxml2" />
+        <remove-project name="platform/tools/apksig" />
+        <remove-project name="RisingTechOSS/android_build" />
+
         <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/sweet" name="android_vendor_xiaomi_sweet" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="ajitlenka30" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/sweet-miuicamera" name="sweet-miuicamera" remote="mrfox2003" revision="13.1" clone-depth="1" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ajitlenka30" revision="13" clone-depth="1" />
+        <project path="external/libxml2" name="android_external_libxml2" remote="los" revision="lineage-20.0" clone-depth="1" />
+        <project path="tools/apksig" name="android_tools_apksig" remote="los" revision="lineage-20.0" clone-depth="1" />
+        <project path="build/make" name="android_build" remote="ajitlenka30" revision="13" clone-depth="1" />
+
  </manifest>
